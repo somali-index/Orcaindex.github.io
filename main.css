@@ -1,0 +1,1341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black !important;
+}
+.container{
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    height: 75px;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+}
+
+.menuClicks {
+    height: 75px;
+    padding: 0% 173% 0% 58%;
+    background-color: black;
+
+}
+
+.subnav {
+    position: absolute;
+    display: none;
+    list-style: none;
+    left: 0;
+    padding-left: 0;
+}
+
+.menuClicks .iconMenuClick {
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    font-size: 38px;
+}
+
+.subnav li {
+    background: black;
+    /* height: 52px; */
+    width: 184%;
+    padding: 18% 25%;
+    
+}
+
+
+
+.subnav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.subnav a li {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuClicks:hover{
+    display: block;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.menuClicks:hover .subnav,
+.menuClicks:hover .iconMenuClick {
+    display: block;
+    background-color: antiquewhite;
+    color: black;
+    z-index: 2;
+}
+
+.subnav li:hover,
+.subnav li:hover a {
+    display: block;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.homeIcon,
+.charactersIcon,
+.weaponsIcon,
+.TierlistIcon,
+.GuidesIcon,
+.mapIcon,
+.blogIcon {
+    margin-right: 10px;
+}
+
+.black{
+    background: black;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 20%;
+    display: none;
+}
+
+.container{
+    background-color: #000;
+}
+
+.menuClicks:hover .black{
+    display: block;
+}
+
+.header .menuLogo {
+    float: right;
+    margin-right: 41%;
+}
+
+.header .menuLogo img {
+    height: 67px;
+}
+
+.header .login{
+    float: right;
+    padding: 0 2%;
+}
+
+.header .login {
+    background-color: #000;
+    border:#000 solid 1px;
+    height: 75px;
+
+}
+
+.header .login .loginIcon{
+    font-size: 26px;
+    line-height: 75px;
+    color: #fff;
+}
+
+.header .login:hover .loginIcon,.header .login:hover{
+    color: black;
+    background-color: antiquewhite;
+
+}
+
+.BcVideoloop{
+    position: relative;
+
+}
+
+.BcVideoloop video{
+    width: 100% ;
+    opacity: 80%;
+}
+
+.body{
+    margin-top:75px ;
+    background-color: black;
+}
+
+.blackOP04{
+    position: absolute;
+    background-image: linear-gradient(rgb(67 67 67 / 1%), rgb(0 0 0 / 110%));
+    height: 55%;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.blackOP05{
+    position: absolute;
+    background-image: linear-gradient(rgb(0 0 0 / 80%), rgb(67 67 67 / 1%));
+    height: 30%;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+}
+
+.titleBox{
+    text-align: center;
+}
+
+.titleBox p{
+    width: 50%;
+    text-align: justify;
+    font-weight: 700;
+    margin: 0 25%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 21px;
+    color: #d8d8d8;
+}
+
+
+
+.bodyContent2{
+    width: 100%;
+}
+
+.bodyBox{
+    width: 70%;
+    margin: 0 17%;
+}
+
+.titleBox2 {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.titleBox2 p, .titleBox2 a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.titleBox2 i{
+    color: yellow;
+    margin-left: 8px;
+}
+
+.whatNew{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.whatNewBox {
+    margin-left: 1%;
+    width: 100%;
+}
+
+.whatNewBox img{
+    width: 90%;
+    height: 90%;
+}
+
+.whatNewBox p{
+    margin-left: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: justify;
+    width: 80%;
+}
+
+.BodyContent3{
+    position: relative;
+    margin-top: 10%;
+    background: url(tainguyen/bg-play-er.jpg) center no-repeat fixed;
+    width: 100%;
+    height: 900px;
+}
+
+.BodyContent3 .blackOP05,.BodyContent4 .blackOP05{
+    position: absolute;
+    background-image: linear-gradient(rgb(0 0 0 / 100%), rgb(67 67 67 / 0.5%));
+    height: 30%;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+
+.buttonBox{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBox button{
+    height: 70px;
+    width: 20%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.buttonBox .facebook{
+    margin-right: 70px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.title3{
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 20%;
+}
+
+.title3 h1{
+    margin-bottom: 6%;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+ /* .facebookIcon{
+
+} */
+
+.charImg{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+/*can anh charImg su dung max witdh va left = 0*/
+
+.charImg img{
+    max-width: 100%;
+}
+
+.footer{
+    background-color: #000;
+    padding: 4% 0;
+    background-color: #000;
+    border-top: solid 1px #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.footer.bodyBox{
+    width: 100%;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerLogo img{
+    width: 25%;
+    margin-right: 2%;
+}
+
+.footerLogo p{
+    text-align: justify;
+    color: #fff;
+}
+
+.BodyContent4{
+    margin-top: 20%;
+}
+
+.BodyContent4 .title button {
+    margin-top: 12%;
+    background-image: url(tainguyen/btn-yellow-point.svg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 64px;
+    border: 0;
+    padding: 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    text-decoration: none;
+    background-color: transparent;
+    /* background-position: 50%; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* cursor: pointer;*/
+    
+}
+
+
+.BodyContent4 .title button:hover {
+    background-color: #222121;
+}
+
+.BodyContent4 .title button:hover h2{
+    color: #505050;
+}
+
+.BodyContent4 .title button h2{
+    font-size: 80%;
+}
+
+.BodyContent4 .title h1{
+    font-size: 346%;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.BodyContent4 .title p{
+    color: #c0b8b8;
+    text-align: center;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.modal.open {
+    display: block;
+}
+
+.modalContainer {
+    position: relative;
+    left: 25%;
+    top: -250px;
+    margin: 0;
+    width: 50%;
+    height: 60%;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 13px 20px rgba(138, 129, 129, 0.5);
+}
+
+.modalContainer.slow{
+    animation: downmid 0.4s linear 1 forwards;
+
+}
+
+@keyframes downmid {
+    0%{
+        left: 25%;
+        top: -250px;
+    }
+    25%{
+        left: 25%;
+        top: -200px;
+    }
+    50%{
+        left: 25%;
+        top: 0;
+    }
+
+    75%{
+        left: 25%;
+        top: 100px;
+    }
+    100%{
+        left: 25%;
+        top: 175px;
+    }
+}
+
+
+
+
+
+.formField {
+    position: relative;
+    width: 59.9%;
+}
+.modalContainer .logginImg{
+    width: 40%;
+    height: 100%;
+}
+
+.closeButton{
+    position: absolute;
+    right: 19px;
+    top: 20px;
+    color: #fff;
+}
+
+.closeButton a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.formBox{
+    margin: 27% 4% 0 10%;
+}
+
+.titleLoggin h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.nameAC{
+    margin-bottom:  40px ;
+    position: relative;
+
+}
+
+.passwordAC{
+    margin:  20px 0;
+    position: relative;
+}
+
+.formInput{
+    height: 60px;
+    width: 80%;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: #000;
+}
+
+.formInput:focus {
+    border: #c0b8b8 solid 1px;
+    outline: none;
+}
+
+.formLabel{
+    position: absolute;
+    left: 20px;
+    top:50%;
+    transform: translateY(-50%);
+    transition:  0.25s;
+    user-select: none;
+    pointer-events: none;
+    color: #fff;
+}
+
+input[type=text]{
+    color: #fff;
+}
+
+.formInput:not(:placeholder-shown)+.formLabel,
+.formInput:focus+.formLabel{
+    top: 0;
+    color: #fff;
+    background-color: #000000;
+    padding: 10px;
+    transition:  0.25s;
+}
+
+.forgetORsignin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgetORsignin a{
+    color: #fff;
+    
+}
+
+.forgetORsignin .signin{
+    margin-right:20% ;
+}
+
+.forgetORsignin:hover>.signin,
+.forgetORsignin:hover>.forget {
+    color: rgb(239, 211, 32);
+}
+
+.titleBox .mainMENUp{
+    width: 50%;
+    text-align: justify;
+    font-weight: 700;
+    margin: 0 25%;
+    font-size: 29px;
+    letter-spacing: 3px;
+    margin-top: 21px;
+    color: #d8d8d8;
+}
+
+/** trang đăng kí*/
+
+
+
+.body.bacground1sigin{
+    background-image:  url(tainguyen/Site-background-dark.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.signinView {
+    width: 77%;
+    margin: 0 23%;
+    padding: 7% 0;
+    background-color: #000;
+}
+
+.edit-marginleft{
+    background-color: #000;
+    width: 100%;
+    padding-left: 5%;
+    height: 100%;
+}
+
+.titleSignup{
+    color: #fff;
+}
+
+.signupBox{
+    margin: 20px 0;
+}
+
+.signupName{
+    position: relative;
+}
+
+
+
+.signinInput {
+    background-color: black;
+    height: 50px;
+    width: 40%;
+    border-radius: 23px;
+    padding-left: 30px;
+    
+}
+
+.signinInput:focus{
+    border-color: #fff;
+    
+    transition: 0.25s;
+}
+
+.labelSignup {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%);
+    margin-left: 25px;
+    font-size: 15px;
+    transition: 0.25s;
+    top: 50%;
+    padding: 0 5px;
+}
+
+button.singupBTN {
+    height: 53px;
+    width: 16%;
+    /* padding: 12px; */
+    margin: 20px 0px;
+    border-radius: 30px;
+}
+
+.signinInput:focus + .labelSignup,.signinInput:not(:placeholder-shown)+.labelSignup{
+    top: 0;
+    background-color: #000;
+}
+
+.footerViewsignUp{
+    padding-top: 34px;
+    border-top: gray solid 1px;
+}
+
+
+/** bloglist view by truong thanh binh*/
+
+
+#tt {
+    background-color: #ccc;
+    background: #000000;
+}
+
+.box-view{
+    margin-top: 75px;
+    display: block;
+    background: #000000;
+    padding-bottom: 50px;
+}
+
+.Bkhonggian-list {
+    margin: 3% auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 40px;
+}
+
+.Bkhonggian-item {
+    border: 1px solid #ffffff;
+    width: 60%;
+    background-color: #000000;
+}
+
+img.Bkhonggian-anh {
+    width: 100%;
+}
+
+.Bkhonggian-body {
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.Bthongti-ngaythang {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Bthongti-ngaythang p {
+    font-weight: 600;
+}
+
+.Bkhongmau {
+    margin-right: 4px;
+    color: #fff;
+}
+
+.Bcomau {
+    color: #2f2fb8;
+}
+
+.Bngoaicung {
+    margin-left: 4px;
+}
+
+.Bthongti-ngaythang .khunggiua {
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom: none;
+    border-top: none;
+    padding: 0 9px;
+}
+
+h3.Bkhonggian-tieude {
+    margin: 15px 0;
+    color: #fff;
+}
+
+p.Bvanban {
+    margin: 15px 0;
+    color: #fff;
+}
+
+.Bbtn {
+    font-weight: 600;
+    background-color: #1592db;
+    padding: 9px 16px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+
+.Btimkiem {
+    display: block;
+    /* float: right; */
+    border: 1px solid rgb(255, 255, 255);
+    /* background-color: black; */
+    margin-left: 30px;
+    width: 33%;
+    background-color: #000;
+}
+
+.Bthanhtimkiem {
+    position: absolute;
+    top: 15%;
+    left: 23px;
+    /* border: 10px; */
+}
+.Btimkiem-post {
+    list-style: none;
+    border: solid 1px;
+
+}
+.Btieude {
+    margin: 8px 12px;
+    color:white;
+    font-weight: 700;
+    
+}
+.Bvanban2 {
+    font-size: 60%;
+    color: white;
+    margin-left: 2%;
+    width: 50%;
+    /* text-align: justify; */
+    font-size: 13px;
+}
+.Btime {
+    font-size: 60%;
+    color: white;
+    margin-left: 2%;    
+    width: 50%;
+    font-size: 11px;
+}
+
+.Banhnho {
+    width: 35%;
+    
+
+}
+.Bdanhsach-post {
+    display: flex;
+    flex-wrap: wrap;   
+    margin: 10px 16px;
+}
+
+.Bcontainer {
+    background-color: rgb(25, 25, 25);
+    /* margin-left: 1%; */
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    /* width: 100%; */
+    height: 15%;
+
+}
+
+.Bcontainer input {
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.Bcontainer .Bicon {
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.Bchitiet-post{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Bkhonggian-body {
+    margin: 4% 5%;
+}
+
+
+/**character list */
+
+.backgroundCharacterlist{
+    background-image: url(tainguyen/Site-background-dark.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+
+.bodyBox.bodyBoxcharacterList{
+    background-color: #000;
+}
+
+.blackOP6{
+    position: absolute;
+    background-image: linear-gradient(rgb(8 8 8 / 50%), rgb(0 0 0 / 110%));
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 26%;
+}
+
+.blackOP7{
+    position: absolute;
+    background-image: linear-gradient(rgb(8 8 8 / 50%), rgb(0 0 0 / 110%));
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 24%;
+}
+
+
+.characterListBoxItem img{
+    width: 100px;
+}
+
+.characterListTitle{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.characterListTitleIcon{
+    margin-top: 1%;
+    color: #fff;
+    font-size: 29px;
+    margin-right: 1%;
+    color: #194b3e;
+
+}
+
+.characterListTitle h1{
+    color: #194b3e;
+}
+
+p.characterListTitleP {
+    margin-top: 1%;
+    margin-left: 1%;
+    color: #194b3e;
+}
+
+input.searchColor{
+    background-color: #000;
+    border-color: #63717f;
+    transition: 0.25s;
+}
+
+input.searchColor:focus{
+    border-color: #ffffff;
+    background-color: #ccc;
+    color: black;
+}
+
+
+.bodyContent2.characterList {
+    display: block;
+    margin-left: 3%;
+    width: 95%;
+    padding-top: 10%;
+}
+
+.search {
+    padding-top: 36px;
+    border-top: 1px solid;
+    border-color: #194b3e;
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+.dropdown.roledropdown{
+    margin: 1% 0;
+}
+
+.navcharacterList{
+    padding-bottom: 10px;
+    border: none !important;
+}
+
+
+
+.nav-item.navrole{
+    background-color: #198754;
+
+}
+
+
+
+.btn.btn-success.navroleBTN{
+    border-radius: 0;
+    margin-right: 10px;
+    background-color: #198754;
+}
+
+.imgSizeIcon{
+    width: 100%;
+    height: 20px;
+}
+
+.characterListBox{
+    margin: 3% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.characterListBoxItem{
+    display: inline-block;
+}
+
+.characterListBoxItem a{
+    text-decoration: none;
+}
+
+.characterListBoxItem:hover{
+
+    background-color: rgb(88, 124, 100);
+}
+
+
+
+.characterName{
+    color: #fff;
+    text-align: center;
+}
+
+.bodyBox.bodyBoxcharacterList{
+    width: 65%;
+    margin: 0 18%;
+    width: 50%;
+    margin: 0 26%;
+
+}
+
+/** chi tiet nhan vat*/
+
+.headerBackground{
+    
+
+}
+
+.headerBackground{
+    position: relative;
+    width: 100%;
+}
+
+.charImgCharacterDetials {
+    position: absolute;
+    left: 9%;
+    height: 100%;
+    width: 21%;
+    bottom: -1%;
+}
+.headerBackground {
+
+    background-image: url(tainguyen/iconIMG/backgroundCharactaerdetails/profile_bg-be35a2382f5051b9f067e416ebc22b63.jpg);
+    width: 85%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 0 7.33%;
+    position: absolute;
+    top: 1%;
+}
+
+.headerBackgroundBox {
+    height: 260px;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+.backgroundslat{
+    bottom: 0%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    transform: skewX(20deg);
+    width: 17%;
+    background-color: #616a63;
+}
+
+.blackOP6.backgroundCharacterlist{
+    height: 95%;
+}
+
+.blackOP7.backgroundCharacterlist{
+    height: 95%;
+}
+
+ .charImgFooter{
+    position: absolute;
+    width: 100%;
+    bottom: 0;;
+    left: 0;
+}
+
+.charImgFooter img{
+    width: 100%;
+    height: 400px;
+}
+
+.groupTitle{
+    position: absolute;
+    width: 60%;
+    right: 6%;
+    top: 52px;
+}
+
+.groupTitle h1{
+    font-size: 30px;
+    color: #4b8374;
+    text-align: justify;
+}
+
+.groupTitle p{
+    font-size: 20px;
+    color: #198754;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+.titlecharacterDetails{
+}
+
+h1.InfoGrouptitle {
+    color: #d4d4d4;
+    font-size: 40px;
+}
+
+.InfoGroupbox {
+    border-top: solid #5c7870;
+    width: 92%;
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.InfoGroupbox p{
+    color: gray;
+    font-size: 20px;
+    padding-top: 2%;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.selectInforGroup {
+    margin: 0 143px;
+}
+
+.selectInforGroupBtn {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectInforGroupBtn a{}
+
+
+.selectInforGroupBtn button {
+    width: 500px;
+    height: 60px;
+    background-color: #000;
+
+}
+
+.selectInforGroupBtn .left{
+    width: 350px;
+    margin-right: 10px;
+    border-top: solid #505050 5px;
+    border-left: solid #505050;
+    border-right: solid #505050;
+    border-bottom: solid #505050 5px;
+}
+
+.selectInforGroupBtn .right {
+    width: 350px;
+    margin-left: 44px;
+    border-top: solid #505050 5px;
+    border-left: solid #505050;
+    border-right: solid #505050;
+    border-bottom: solid #505050 5px;
+}
+
+.titleINbtn{
+    color: gray;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.InfoGroupbox.flexWarp {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+}
+.InfoGroupbox.flexWarp a{
+    text-decoration: none;
+}
+
+
+
+
+.COMBAT-INFORMATIONshowdetial {
+    background-color: #262729;
+    height: 75px;
+    width: 450px;
+    margin-top: 3%;
+}
+
+.COMBAT-INFORMATIONshowdetial p{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 55px;
+}
+
+
+.COMBAT-INFORMATIONshowdetial.left{
+    margin-right: 10px;
+}
+
+.titleSkill {
+    background-color: #afafaf;
+    padding: 2% 0;
+}
+
+.titleSkill h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #606f68;
+}
+
+.skillBox {
+    width: 48%;
+    border: 1px solid gray;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.skillBox p{
+    line-height: 16px !important;
+}
+
+.bodyBox.characterDetails {
+    background-color: #000;
+    position: relative;
+    padding-bottom: 25px;
+    width: 69%;
+    margin: 0 auto;
+}
+
+.twolinedetial {
+    margin-left: 9px;
+    margin-right: 8px;
+    border-left: 1px solid gray;
+    width: 340%;
+}
+
+.twolinedetial.W {
+    height: 171%;
+}
+
+.twolinedetial.P{
+    height: 128%;
+
+}
+
+.twolinedetial.Q{
+    height: 100%;
+}
+.twolinedetial.E{
+    height: 100%;
+}
+.twolinedetial.R{
+    height: 174%;
+}
+
+.twolinedetial .fisrtline,
+.twolinedetial .lastline
+{
+    margin-left: 10px;
+}
+.twolinedetial .lastline{
+}
+
+.detialList.P{
+    margin-top: 10%;
+
+}
+.detialSkillp2.Q{
+    margin-top: 0%;
+}
+
+.detialSkillp2.Q li p{
+    font-size: 10px;
+}
+
+.detialSkillp2.W{
+    margin-top: 24%;
+}
+.detialSkillp2.E{
+
+}
+.detialSkillp2.R{
+    margin-top: 25%;
+
+}
+
+.skillBox p{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.detialsSkillp1 {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 157px;
+}
+
+.detialList{
+    margin-left: -6%;
+}
+
+.detialList li{
+    list-style: none;
+    border-bottom:1px gray solid;
+    border-top:1px gray solid;
+}
+
+.detialList li p{
+    margin-left: 4%;
+}
+
+h1.InfoGrouptitle {
+    margin-left: 54px;
+    margin-top: 24px;
+}
+
+.characterPreview{
+    display: none;
+}
+
+
+.chitiet.close{
+    display: none;
+}
+
+.characterPreview.open{
+    display: block;
+}
